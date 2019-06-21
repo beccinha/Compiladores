@@ -9,7 +9,8 @@ import java.util.*;
 
 public class SimpleSQL {
 
-    public static final String PATH = "C:\\Users\\Rebec\\Documents\\Intellij\\domain-specific-labguage\\src\\Banco\\";
+//    public static final String PATH = "C:\\Users\\Rebec\\Documents\\Intellij\\domain-specific-labguage\\src\\Banco\\";
+    public static final String PATH = "C:\\Users\\arthu\\Documents\\GitHub\\domain-pecifc-language\\domain-specific-labguage\\src\\Banco\\";
 
     public static String type;
 
@@ -62,8 +63,8 @@ public class SimpleSQL {
 
             /** percorre as linhas e colunas e cria uma TABELA **/
             for(int linha = 0; linha < tabela.length; linha++){
-                for(int coluna = 0; coluna < tabela.length - 1; coluna++){
-                    if(mapAtributo.get(tabela[0][coluna]) != null){
+                for(int coluna = 0; coluna < tabela.length; coluna++){
+                    if(coluna < tabela[0].length && mapAtributo.get(tabela[0][coluna]) != null){
                         /** header **/
                         if(linha == 0){
                             dataTable.getHeader().add(tabela[linha][coluna]);
