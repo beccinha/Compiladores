@@ -1,3 +1,4 @@
-ID-NOME-TURMA
-1-Pedro-Compiladores
-2-Rebbeca-Banco de dados
+ID-NOME-FONE
+1-ArthurP-(81)996354295
+2-Rebbeca-(81)996354295
+3-Heloisa-(81)996354295
